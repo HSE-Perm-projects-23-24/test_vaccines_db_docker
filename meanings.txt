@@ -1,0 +1,7 @@
+chmod +x - разрешение на выполнение файла/каталога
+
+db-init.sh - shell script
+
+Finally, we define the entrypoint script.
+This script is executed every time a docker container is started or re-started. 
+It will eventually invoke the shell script db-init.sh mentioned above.
